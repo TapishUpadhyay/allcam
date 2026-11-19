@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-era="film">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lens Through Time | Camera history and photo prompts</title>
+  <meta name="description" content="Explore cameras from the pinhole to the smartphone. Read each camera's story, see how its photos look, and copy a prompt that turns your photo into that camera's look.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Archivo+Black&family=IM+Fell+English:ital@0;1&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/">Lens Through Time</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav id="mainNav" class="main-nav" aria-label="Main">
+      <a href="#/">Timeline</a>
+      <a href="#/upcoming">Coming soon</a>
+      <a href="#/about">About</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <p class="loading">Loading cameras…</p>
+  </main>
+
+  <footer class="site-footer" id="footer"></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
