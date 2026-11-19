@@ -12,11 +12,29 @@
       "year": "c. 1021",
       "era": "early",
       "tagline": "A dark room, a tiny hole, an upside-down world.",
-      "facts": [["Origin", "Described by Ibn al-Haytham"], ["Recording medium", "None until the 1800s"], ["Lens", "A single small hole"], ["Look", "Soft, endless depth of field"]],
+      "facts": [
+        [
+          "Origin",
+          "Described by Ibn al-Haytham"
+        ],
+        [
+          "Recording medium",
+          "None until the 1800s"
+        ],
+        [
+          "Lens",
+          "A single small hole"
+        ],
+        [
+          "Look",
+          "Soft, endless depth of field"
+        ]
+      ],
       "story": "Around the year 1021, the scholar Ibn al-Haytham studied how light passing through a tiny hole projects an upside-down image onto a wall. Astronomers used darkened rooms to watch eclipses safely, and artists used them to trace views. Nothing could save the image yet, but the principle behind every camera was already in place. Today, pinhole photographers recreate it with a lightproof box, a needle-sized hole and a sheet of photographic paper.",
       "look": "very soft, low-contrast image with no sharp edges, a strong vignette darkening the corners, blur everywhere, warm monochrome tones and a dreamy long-exposure feel, with any moving people faint or ghosted",
       "cameraImage": "Kidz Labs pinhole camera (430043248).jpg",
-      "sampleImage": "Moscow Conservatory- a pinhole photograph.jpg"
+      "sampleImage": "Moscow Conservatory- a pinhole photograph.jpg",
+      "format": "pinhole print on photographic paper, soft frame with darkened corners"
     },
     {
       "id": "daguerreotype",
@@ -24,11 +42,29 @@
       "year": "1839",
       "era": "early",
       "tagline": "The first practical photograph, on a mirror of silver.",
-      "facts": [["Inventor", "Louis Daguerre"], ["Maker", "Susse Frères"], ["Medium", "Silver-coated copper plate"], ["Exposure", "Several minutes at first"]],
+      "facts": [
+        [
+          "Inventor",
+          "Louis Daguerre"
+        ],
+        [
+          "Maker",
+          "Susse Frères"
+        ],
+        [
+          "Medium",
+          "Silver-coated copper plate"
+        ],
+        [
+          "Exposure",
+          "Several minutes at first"
+        ]
+      ],
       "story": "In 1839, France gave Louis Daguerre's process to the world, and Susse Frères sold the camera that came with it. A polished silver plate, sensitised with iodine fumes, was exposed for minutes and developed with mercury vapour. The result was a one-of-a-kind, mirror-like image with astonishing detail. Because exposures were so long, moving crowds vanished, which is why his 1838 view of a Paris boulevard looks almost empty.",
       "look": "a mirror-like silver monochrome image with cool blue-grey shadows and warm highlights, very fine detail in still objects, dark vignetted edges, and moving subjects erased or blurred away",
       "cameraImage": "Susse Frères Daguerreotype camera 1839.jpg",
-      "sampleImage": "Boulevard du Temple by Daguerre.jpg"
+      "sampleImage": "Boulevard du Temple by Daguerre.jpg",
+      "format": "sixth-plate daguerreotype (about 2.75 x 3.25 inches), slightly vertical frame, polished silver plate"
     },
     {
       "id": "kodak-no1",
@@ -36,11 +72,29 @@
       "year": "1888",
       "era": "film",
       "tagline": "You press the button, we do the rest.",
-      "facts": [["Maker", "Eastman Dry Plate Company"], ["Film", "Pre-loaded roll, 100 exposures"], ["Image", "Round, about 2.5 inches"], ["Lens", "Fixed focus"]],
+      "facts": [
+        [
+          "Maker",
+          "Eastman Dry Plate Company"
+        ],
+        [
+          "Film",
+          "Pre-loaded roll, 100 exposures"
+        ],
+        [
+          "Image",
+          "Round, about 2.5 inches"
+        ],
+        [
+          "Lens",
+          "Fixed focus"
+        ]
+      ],
       "story": "George Eastman wanted photography to be simple enough for anyone. His Kodak No. 1 arrived loaded with a roll of film for 100 round pictures. You pointed it, pressed the button and wound the key. Then you mailed the entire camera back to Rochester, where the film was developed and the camera was reloaded and returned. Suddenly, ordinary families could take snapshots without chemicals, darkrooms or training.",
       "look": "a round frame inside a black square, soft fixed-focus lens, faded sepia-brown tones, low contrast, light leaks, and scratches and dust on the film",
       "cameraImage": "Cutaway front view of first Kodak camera.jpg",
-      "sampleImage": null
+      "sampleImage": null,
+      "format": "round image about 2.5 inches across, shown inside a square print"
     },
     {
       "id": "leica-i",
@@ -48,11 +102,29 @@
       "year": "1925",
       "era": "film",
       "tagline": "The pocket camera that made street photography possible.",
-      "facts": [["Designer", "Oskar Barnack"], ["Film", "35mm, 24 x 36 mm frame"], ["Lens", "50mm Elmar f/3.5"], ["Launched", "Leipzig Spring Fair, 1925"]],
+      "facts": [
+        [
+          "Designer",
+          "Oskar Barnack"
+        ],
+        [
+          "Film",
+          "35mm, 24 x 36 mm frame"
+        ],
+        [
+          "Lens",
+          "50mm Elmar f/3.5"
+        ],
+        [
+          "Launched",
+          "Leipzig Spring Fair, 1925"
+        ]
+      ],
       "story": "Oskar Barnack, a Leitz engineer, wanted a camera small enough to carry on hikes. He built one that used cinema film, giving each frame a 24 x 36 mm size that became the 35mm standard. The Leica I reached shops in 1925. Photographers could suddenly work quickly and quietly, catching real life as it happened. That freedom shaped street photography and photojournalism for generations afterwards.",
       "look": "fine-grain black-and-white 35mm film, sharp centre with gentle corner falloff, rich mid-tones, natural candid framing, a hint of vignette, in a 3:2 ratio",
       "cameraImage": "LEI0060 186 Leica I Sn.5193 1927 Originalzustand Front side-FS 5632-Bearbeitet.jpg",
-      "sampleImage": null
+      "sampleImage": null,
+      "format": "35mm film frame, 3:2 landscape (24 x 36 mm)"
     },
     {
       "id": "rolleiflex",
@@ -60,11 +132,29 @@
       "year": "1929",
       "era": "film",
       "tagline": "Look down, not through: the waist-level square.",
-      "facts": [["Maker", "Franke & Heidecke"], ["Designer", "Reinhold Heidecke"], ["Film", "120 roll film, 6 x 6 cm"], ["Design", "Twin-lens reflex"]],
+      "facts": [
+        [
+          "Maker",
+          "Franke & Heidecke"
+        ],
+        [
+          "Designer",
+          "Reinhold Heidecke"
+        ],
+        [
+          "Film",
+          "120 roll film, 6 x 6 cm"
+        ],
+        [
+          "Design",
+          "Twin-lens reflex"
+        ]
+      ],
       "story": "Reinhold Heidecke's Rolleiflex put two matching lenses one above the other. The top lens fed a bright viewfinder on top of the camera, while the lower lens exposed the film. Photographers held it at waist level and looked down into the glass, which made portraits feel gentle and unthreatening. Its square 6 x 6 cm negatives were large and detailed, and the camera stayed a favourite of portrait and street photographers for decades.",
       "look": "a square 1:1 frame, creamy shallow depth of field, soft glow in the highlights, fine-grain medium-format detail, rich tonal gradation, composed from waist level looking slightly upward",
       "cameraImage": "Rolleiflex f2-8-F.jpg",
-      "sampleImage": null
+      "sampleImage": null,
+      "format": "square 6 x 6 cm medium-format frame (1:1)"
     },
     {
       "id": "polaroid-95",
@@ -72,11 +162,29 @@
       "year": "1948",
       "era": "film",
       "tagline": "A finished photograph in about a minute.",
-      "facts": [["Inventor", "Edwin Land"], ["Process", "Peel-apart instant film"], ["Wait", "About 60 seconds"], ["Prints", "Sepia-toned at first"]],
+      "facts": [
+        [
+          "Inventor",
+          "Edwin Land"
+        ],
+        [
+          "Process",
+          "Peel-apart instant film"
+        ],
+        [
+          "Wait",
+          "About 60 seconds"
+        ],
+        [
+          "Prints",
+          "Sepia-toned at first"
+        ]
+      ],
       "story": "Edwin Land's young daughter once asked why she could not see a photo right away. That question led to the Polaroid Land Model 95, which went on sale in Boston in late 1948. You exposed the film, pulled a tab, waited about a minute and peeled apart a finished print. The first prints were brown-toned, but nobody minded. Instant photography had arrived, and it changed how people shared moments.",
       "look": "a sepia-brown monochrome instant print with soft edges, low contrast, chemical blotchiness near the borders and a white border frame",
       "cameraImage": "Polaroid Land Camera Model 95 - MIT Museum - DSC03766.JPG",
-      "sampleImage": null
+      "sampleImage": null,
+      "format": "instant print about 3.25 x 4.25 inches with a white border"
     },
     {
       "id": "nikon-f",
@@ -84,11 +192,29 @@
       "year": "1959",
       "era": "film",
       "tagline": "The tough SLR that went wherever the news was.",
-      "facts": [["Maker", "Nippon Kogaku (Nikon)"], ["Type", "35mm single-lens reflex"], ["Mount", "Nikon F bayonet"], ["System", "Interchangeable finders and lenses"]],
+      "facts": [
+        [
+          "Maker",
+          "Nippon Kogaku (Nikon)"
+        ],
+        [
+          "Type",
+          "35mm single-lens reflex"
+        ],
+        [
+          "Mount",
+          "Nikon F bayonet"
+        ],
+        [
+          "System",
+          "Interchangeable finders and lenses"
+        ]
+      ],
       "story": "Nikon's first SLR was built like a tool. Its removable prism, interchangeable lenses and rugged metal body let photographers adapt it to almost any job. In the 1960s it became a trusted companion for war and news photographers, who valued how well it survived rough conditions. The Nikon F also helped convince the world that Japanese cameras could match, and then beat, the best from Germany.",
       "look": "a punchy, high-contrast 35mm photojournalism look with fast black-and-white grain, deep blacks, a crisp subject and a documentary feel",
       "cameraImage": "Coll. Marcè CL - Nikon F 1959.jpg",
-      "sampleImage": "Big Joe Williams 14 11 1971.JPG"
+      "sampleImage": "Big Joe Williams 14 11 1971.JPG",
+      "format": "35mm film frame, 3:2 (24 x 36 mm)"
     },
     {
       "id": "kodak-dcs-100",
@@ -96,11 +222,29 @@
       "year": "1991",
       "era": "digital",
       "tagline": "A Nikon body wired to a backpack-sized hard drive.",
-      "facts": [["Maker", "Kodak"], ["Base", "Nikon F3 body"], ["Sensor", "1.3 megapixels"], ["Storage", "External digital storage unit"]],
+      "facts": [
+        [
+          "Maker",
+          "Kodak"
+        ],
+        [
+          "Base",
+          "Nikon F3 body"
+        ],
+        [
+          "Sensor",
+          "1.3 megapixels"
+        ],
+        [
+          "Storage",
+          "External digital storage unit"
+        ]
+      ],
       "story": "Kodak engineers fitted a 1.3-megapixel sensor into a Nikon F3 body and connected it to a separate storage box carried on the shoulder. The DCS 100 was heavy, expensive and aimed at news photographers who needed to send pictures fast. Images were small by today's standards, but they needed no film or chemicals. It was one of the first digital cameras that professionals could actually use on assignment.",
       "look": "a 1.3-megapixel digital image downscaled to about 1280 x 1024, coarse pixelation, muted colours, blown highlights, crushed shadows, visible sensor noise and slight colour fringing",
       "cameraImage": "Kodak DCS system and Nikon F3 2014 CP+.jpg",
-      "sampleImage": null
+      "sampleImage": null,
+      "format": "1280 x 1024 pixel digital image (5:4)"
     },
     {
       "id": "iphone-2007",
@@ -108,11 +252,29 @@
       "year": "2007",
       "era": "digital",
       "tagline": "The camera you already had in your pocket.",
-      "facts": [["Maker", "Apple"], ["Sensor", "2 megapixels"], ["Lens", "Fixed focus"], ["Missing", "No flash, no video"]],
+      "facts": [
+        [
+          "Maker",
+          "Apple"
+        ],
+        [
+          "Sensor",
+          "2 megapixels"
+        ],
+        [
+          "Lens",
+          "Fixed focus"
+        ],
+        [
+          "Missing",
+          "No flash, no video"
+        ]
+      ],
       "story": "The first iPhone had a 2-megapixel camera that could not record video or focus. It was not a great camera, yet it sat in millions of pockets. That changed what photography meant: people stopped planning pictures and started sharing them instantly. Later iPhones improved fast, but the original showed that the best camera is often the one you happen to be carrying.",
       "look": "a 2-megapixel image at 1600 x 1200, slightly soft fixed focus, washed-out colours with a cool bias, noisy shadows, limited dynamic range and no depth effects",
       "cameraImage": "IPhone First Generation (cropped).jpg",
-      "sampleImage": null
+      "sampleImage": null,
+      "format": "1600 x 1200 pixel photo (4:3)"
     },
     {
       "id": "gopro-hd-hero",
@@ -120,23 +282,71 @@
       "year": "2009",
       "era": "digital",
       "tagline": "Strap it on and forget it is there.",
-      "facts": [["Maker", "GoPro"], ["Founder", "Nick Woodman"], ["Lens", "Ultra-wide angle"], ["Built for", "Sports and action"]],
+      "facts": [
+        [
+          "Maker",
+          "GoPro"
+        ],
+        [
+          "Founder",
+          "Nick Woodman"
+        ],
+        [
+          "Lens",
+          "Ultra-wide angle"
+        ],
+        [
+          "Built for",
+          "Sports and action"
+        ]
+      ],
       "story": "Nick Woodman started GoPro so surfers and other athletes could film themselves. The HD Hero of 2009 added high-definition video and still photos to a small, rugged camera that clipped onto helmets, boards and handlebars. Its ultra-wide lens bent the edges of every scene, giving action footage a look people now recognise instantly. It turned the point of view of the person doing the activity into a whole genre.",
       "look": "an ultra-wide fisheye look with barrel distortion, everything in focus, punchy saturated colours, strong contrast and slightly crushed shadows",
       "cameraImage": "GoPro Hero (8009036215).jpg",
-      "sampleImage": null
+      "sampleImage": null,
+      "format": "ultra-wide-angle 4:3 still, 5-megapixel"
     }
   ],
   "upcoming": [
-    "Calotype camera (1841)", "Wet collodion plate camera (1851)", "Stereoscopic camera (1850s)", "Dry plate camera (1871)",
-    "Lumière Cinématographe (1895)", "Kodak Brownie (1900)", "Cirkut panoramic camera (1904)", "Speed Graphic press camera (1912)",
-    "Minox spy camera (1938)", "Hasselblad 500C (1957)", "Lomography Diana (1960s)", "Kodak Instamatic (1963)",
-    "Nikonos underwater camera (1963)", "Polaroid SX-70 (1972)", "Canon AE-1 (1976)", "Pentax K1000 (1976)",
-    "Minolta Maxxum 7000 (1985)", "Kodak Disc (1982)", "Lomo LC-A (1984)", "Fujifilm QuickSnap disposable (1986)",
-    "Holga (1982)", "Leica M3 (1954)", "Large format view camera", "Sony Mavica (1981)",
-    "Casio QV-10 (1995)", "Game Boy Camera (1998)", "Nikon D1 (1999)", "Sharp J-SH04 camera phone (2000)",
-    "Canon EOS 300D (2003)", "Canon EOS 5D (2005)", "Panasonic Lumix G1 (2008)", "Fujifilm Instax Mini (2012)",
-    "Lytro light field camera (2012)", "Sony A7 (2013)", "Ricoh Theta 360 (2013)", "DJI Phantom drone (2013)",
-    "Google Pixel (2016)", "Phase One IQ4 150MP (2018)", "FLIR thermal camera", "James Webb NIRCam (2022)"
+    "Calotype camera (1841)",
+    "Wet collodion plate camera (1851)",
+    "Stereoscopic camera (1850s)",
+    "Dry plate camera (1871)",
+    "Lumière Cinématographe (1895)",
+    "Kodak Brownie (1900)",
+    "Cirkut panoramic camera (1904)",
+    "Speed Graphic press camera (1912)",
+    "Minox spy camera (1938)",
+    "Hasselblad 500C (1957)",
+    "Lomography Diana (1960s)",
+    "Kodak Instamatic (1963)",
+    "Nikonos underwater camera (1963)",
+    "Polaroid SX-70 (1972)",
+    "Canon AE-1 (1976)",
+    "Pentax K1000 (1976)",
+    "Minolta Maxxum 7000 (1985)",
+    "Kodak Disc (1982)",
+    "Lomo LC-A (1984)",
+    "Fujifilm QuickSnap disposable (1986)",
+    "Holga (1982)",
+    "Leica M3 (1954)",
+    "Large format view camera",
+    "Sony Mavica (1981)",
+    "Casio QV-10 (1995)",
+    "Game Boy Camera (1998)",
+    "Nikon D1 (1999)",
+    "Sharp J-SH04 camera phone (2000)",
+    "Canon EOS 300D (2003)",
+    "Canon EOS 5D (2005)",
+    "Panasonic Lumix G1 (2008)",
+    "Fujifilm Instax Mini (2012)",
+    "Lytro light field camera (2012)",
+    "Sony A7 (2013)",
+    "Ricoh Theta 360 (2013)",
+    "DJI Phantom drone (2013)",
+    "Google Pixel (2016)",
+    "Phase One IQ4 150MP (2018)",
+    "FLIR thermal camera",
+    "James Webb NIRCam (2022)"
   ]
 }

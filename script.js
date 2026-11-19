@@ -33,9 +33,10 @@
   }
 
   function buildPrompt(c) {
-    return "I'll attach a photo. Recreate it as if it had been shot on the " + c.name + " (" + c.year + "). " +
-      "The look: " + c.look + ". " +
-      "You can't edit pixels directly, so build a single-file HTML tool where I upload my photo, a canvas applies this look, and I can download the result.";
+    return "Take the photo I attach and create a new image that looks exactly like it was photographed with the " + c.name + " (" + c.year + "). " +
+      "Format: " + c.format + ". " +
+      "Look: " + c.look + ". " +
+      "Keep my subject, pose and composition the same. Only change how the picture looks, as if this camera had taken it. Give me the final image only.";
   }
 
   function photo(file, alt, caption) {
@@ -120,22 +121,25 @@
       el("p", { class: "tagline", text: c.tagline }),
       facts
     ]);
-    frag.appendChild(el("div", { class: "detail-top" }, [text, photo(c.cameraImage, c.name, "The camera.")]));
+    frag.appendChild(el("div", { class: "detail-top" }, [text]));
 
-    frag.appendChild(el("section", { class: "block story" }, [el("h2", { text: "The story" }), el("p", { text: c.story })]));
-
-    var sample = el("section", { class: "block" }, [el("h2", { text: "How its photos look" })]);
+    var cam = photo(c.cameraImage, c.name, "The camera.");
+    cam.className = "cam-fig";
+    var sample;
     if (c.sampleImage) {
-      sample.appendChild(photo(c.sampleImage, "A photograph made with " + c.name, "A photo made with this camera."));
+      sample = photo(c.sampleImage, "A photograph made with " + c.name, "How a photo from this camera looks.");
     } else {
       var q = encodeURIComponent("photograph taken with " + c.name);
-      sample.appendChild(el("div", { class: "empty" }, [
+      sample = el("div", { class: "empty" }, [
         el("h2", { text: "No sample photo added yet" }),
         el("p", { text: "Find a free-licensed example on Wikimedia Commons, then add its file name to cameras.json." }),
         el("a", { href: "https://commons.wikimedia.org/w/index.php?search=" + q + "&ns6=1", target: "_blank", rel: "noopener", text: "Search Wikimedia Commons" })
-      ]));
+      ]);
     }
-    frag.appendChild(sample);
+    sample.classList.add("sample-fig");
+    frag.appendChild(el("div", { class: "visuals" }, [cam, sample]));
+
+    frag.appendChild(el("section", { class: "block story" }, [el("h2", { text: "The story" }), el("p", { text: c.story })]));
 
     var prompt = buildPrompt(c);
     var pre = el("pre", { text: prompt });
